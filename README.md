@@ -19,9 +19,13 @@ python -m venv venv
 ```bash
 pip install -r requirements.txt
 ```
-### 2. Download data:
-Download data for this repository at ...
-Structure like this image:
+### 3. Download data:
+Please download the dataset required for this repository from the following link:
+
+👉 Download Dataset Here (insert actual link)
+
+Once downloaded, extract it into the root directory of the project. The folder structure should look like the following:
+
 ![image](https://github.com/user-attachments/assets/60c55384-8e4a-454e-b7b3-32f0b21b98e9)
 
 ---
