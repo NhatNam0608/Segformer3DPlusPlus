@@ -1,0 +1,15 @@
+{"time":"2025-06-06T01:12:30.5003906+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"E:\\HOCTAP\\MedSeg\\wandb\\run-20250606_011230-d38cjexz\\logs\\debug-core.log"}
+{"time":"2025-06-06T01:12:31.1083599+07:00","level":"INFO","msg":"created new stream","id":"d38cjexz"}
+{"time":"2025-06-06T01:12:31.1090964+07:00","level":"INFO","msg":"stream: started","id":"d38cjexz"}
+{"time":"2025-06-06T01:12:31.1090964+07:00","level":"INFO","msg":"handler: started","stream_id":"d38cjexz"}
+{"time":"2025-06-06T01:12:31.1096554+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"d38cjexz"}
+{"time":"2025-06-06T01:12:31.1096554+07:00","level":"INFO","msg":"sender: started","stream_id":"d38cjexz"}
+{"time":"2025-06-06T01:12:31.5799831+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-06T01:12:37.3206832+07:00","level":"INFO","msg":"stream: closing","id":"d38cjexz"}
+{"time":"2025-06-06T01:12:37.3206832+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-06T01:12:37.3206832+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-06T01:12:38.6500425+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-06T01:12:45.9907555+07:00","level":"INFO","msg":"handler: closed","stream_id":"d38cjexz"}
+{"time":"2025-06-06T01:12:45.9907555+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"d38cjexz"}
+{"time":"2025-06-06T01:12:45.9907555+07:00","level":"INFO","msg":"sender: closed","stream_id":"d38cjexz"}
+{"time":"2025-06-06T01:12:45.9907555+07:00","level":"INFO","msg":"stream: closed","id":"d38cjexz"}

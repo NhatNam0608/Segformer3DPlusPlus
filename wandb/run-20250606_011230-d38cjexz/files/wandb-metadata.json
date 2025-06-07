@@ -1,0 +1,27 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.11.0",
+  "startedAt": "2025-06-05T18:12:30.459483Z",
+  "program": "E:\\HOCTAP\\MedSeg\\push.py",
+  "codePath": "push.py",
+  "email": "nhatnamit214@gmail.com",
+  "root": "E:\\HOCTAP\\MedSeg",
+  "host": "namhn",
+  "executable": "E:\\HOCTAP\\MedSeg\\venv\\Scripts\\python.exe",
+  "codePathLocal": "push.py",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "188742627328",
+      "used": "138500489216"
+    }
+  },
+  "memory": {
+    "total": "8269426688"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 8
+  }
+}

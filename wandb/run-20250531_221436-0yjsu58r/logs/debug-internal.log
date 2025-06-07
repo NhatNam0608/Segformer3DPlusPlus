@@ -1,0 +1,16 @@
+{"time":"2025-05-31T22:14:36.2326536+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"E:\\HOCTAP\\MedSeg\\wandb\\run-20250531_221436-0yjsu58r\\logs\\debug-core.log"}
+{"time":"2025-05-31T22:14:37.6598479+07:00","level":"INFO","msg":"created new stream","id":"0yjsu58r"}
+{"time":"2025-05-31T22:14:37.6598479+07:00","level":"INFO","msg":"stream: started","id":"0yjsu58r"}
+{"time":"2025-05-31T22:14:37.6598479+07:00","level":"INFO","msg":"sender: started","stream_id":"0yjsu58r"}
+{"time":"2025-05-31T22:14:37.6598479+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"0yjsu58r"}
+{"time":"2025-05-31T22:14:37.6598479+07:00","level":"INFO","msg":"handler: started","stream_id":"0yjsu58r"}
+{"time":"2025-05-31T22:14:37.9735728+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-31T22:14:39.9966321+07:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-05-31T22:16:34.2765926+07:00","level":"INFO","msg":"stream: closing","id":"0yjsu58r"}
+{"time":"2025-05-31T22:16:34.2776203+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-31T22:16:34.2776203+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-31T22:16:35.2721459+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-31T22:16:35.6885777+07:00","level":"INFO","msg":"handler: closed","stream_id":"0yjsu58r"}
+{"time":"2025-05-31T22:16:35.6885777+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"0yjsu58r"}
+{"time":"2025-05-31T22:16:35.6891038+07:00","level":"INFO","msg":"sender: closed","stream_id":"0yjsu58r"}
+{"time":"2025-05-31T22:16:35.6891038+07:00","level":"INFO","msg":"stream: closed","id":"0yjsu58r"}

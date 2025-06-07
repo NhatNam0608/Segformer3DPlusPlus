@@ -1,0 +1,83 @@
+wandb:
+  parameters:
+    mode: "online"
+    entity: "nhtnam"
+    project: "segformer3d_bsm_acdc"
+    resume: "must"
+model:
+  name: "segformer3d_bsm_acdc"
+  parameters:
+    in_channels: 1
+    sr_ratios: [3, 2, 1, 1]
+    embed_dims: [32, 64, 160, 256]
+    patch_kernel_size: [7, 3, 3, 3]
+    patch_stride: [4, 2, 2, 2]
+    patch_padding: [3, 1, 1, 1]
+    mlp_ratios: [4, 4, 4, 4]
+    num_heads: [1, 2, 5, 8]
+    depths: [2, 2, 2, 2]
+    num_classes: 3
+    decoder_dropout: 0.0
+    decoder_head_embedding_dim: 256
+    merge_modes: [
+      { q_mode: null, kv_mode: "bsm", kv_r: 0.3, kv_sx: 3, kv_sy: 3, kv_sz: 1},
+      { q_mode: null, kv_mode: "bsm", kv_r: 0.3, kv_sx: 3, kv_sy: 3, kv_sz: 1},
+      { q_mode: "bsm", kv_mode: null, q_r: 0.3, q_sx: 3, q_sy: 3, q_sz: 1},
+      { q_mode: "bsm", kv_mode: null, q_r: 0.3, q_sx: 3, q_sy: 3, q_sz: 1}
+    ]
+loss_fn:
+  loss_type: "dice"
+  loss_args: None
+
+optimizer:
+  optimizer_type: "adamw"
+  optimizer_args:
+    lr: 0.0001
+    weight_decay: 0.01
+
+warmup_scheduler:
+  enabled: True 
+  warmup_epochs: 20
+
+train_scheduler:
+  scheduler_type: 'cosine_annealing_wr'
+  scheduler_args:
+    t_0_epochs: 20
+    t_mult: 1
+    min_lr: 0.000006
+
+sliding_window_inference:
+  sw_batch_size: 4
+  roi: [6, 96, 96]
+
+training_parameters:
+  seed: 42
+  num_epochs: 9000
+  start_epoch: 0
+  load_optimizer: False
+  print_every: 400
+  calculate_metrics: True
+  grad_accumulate_steps: 2 
+
+
+dataset:
+  name: "acdc"
+  train_dataset:
+    root: "data/acdc_seg/processed"
+    train: True
+
+  val_dataset:
+    root: "data/acdc_seg/processed"
+    train: False
+
+  train_dataloader:
+    batch_size: 64
+    shuffle: True
+    num_workers: 4
+    drop_last: True
+
+  val_dataloader:
+    batch_size: 1
+    shuffle: False
+    num_workers: 1
+    drop_last: False

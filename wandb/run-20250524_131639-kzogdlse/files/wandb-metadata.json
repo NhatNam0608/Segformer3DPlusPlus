@@ -1,0 +1,27 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.11.0",
+  "startedAt": "2025-05-24T06:16:39.390368Z",
+  "program": "e:\\HOCTAP\\MedSeg\\segformer3d-bma.ipynb",
+  "codePath": "segformer3d-bma.ipynb",
+  "email": "nhatnamit214@gmail.com",
+  "root": "e:\\HOCTAP\\MedSeg",
+  "host": "namhn",
+  "executable": "e:\\HOCTAP\\MedSeg\\venv\\Scripts\\python.exe",
+  "codePathLocal": "segformer3d-bma.ipynb",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "188742627328",
+      "used": "126263889920"
+    }
+  },
+  "memory": {
+    "total": "8269426688"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 8
+  }
+}

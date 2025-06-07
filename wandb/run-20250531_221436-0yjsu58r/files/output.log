@@ -1,0 +1,9 @@
+[34m[1mwandb[0m: Downloading large artifact best-checkpoint:latest, 51.90MB. 6 files...
+[34m[1mwandb[0m:   6 of 6 files downloaded.  
+Done. 0:0:11.2 (4.7MB/s)
+E:\HOCTAP\MedSeg\venv\Lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+TC: 0.88984406
+WT: 0.91645354
+ET: 0.85586935
+mean dice: 88.73889446258545

@@ -1,0 +1,26 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.11.0",
+  "startedAt": "2025-05-31T15:14:36.218469Z",
+  "program": "E:\\HOCTAP\\MedSeg\\evaluate.py",
+  "codePath": "evaluate.py",
+  "root": "E:\\HOCTAP\\MedSeg",
+  "host": "namhn",
+  "executable": "E:\\HOCTAP\\MedSeg\\venv\\Scripts\\python.exe",
+  "codePathLocal": "evaluate.py",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "188742627328",
+      "used": "154827218944"
+    }
+  },
+  "memory": {
+    "total": "8269426688"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 8
+  }
+}
