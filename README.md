@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ### 3. Download data:
 Please download the dataset required for this repository from the following link:
 
-👉 Download Dataset Here (insert actual link)
+👉 Download Dataset Here (https://drive.google.com/file/d/1-vCzZr6OCIyDt8_-FTF4QfldoBd9kkR5/view?usp=sharing)
 
 Once downloaded, extract it into the root directory of the project. The folder structure should look like the following:
 
