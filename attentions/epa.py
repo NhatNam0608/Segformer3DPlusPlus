@@ -1,3 +1,8 @@
+# ------------------------------------------------------------
+# Author: Huynh Nhat Nam (nhatnamit214@gmail.com)
+# GitHub: https://github.com/NhatNam0608
+# Created: 2025-06-08
+# ------------------------------------------------------------
 import torch.nn as nn
 import torch
 import math
